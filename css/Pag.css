@@ -1,0 +1,138 @@
+
+        /* Estilos para la barra superior */
+        .top-bar {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Estilos para el logo y el ícono en la esquina */
+        .nav.container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8a8585; /* Color de fondo para la barra de navegación */
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 36px; /* Tamaño más grande */
+        }
+
+        .chevron-icon {
+            font-size: 24px;
+        }
+
+        /* Estilos para el contenedor de Método de Pago */
+        .metodo-pago-container {
+            margin-top: 30px; /* Espacio entre el encabezado y el contenedor de método de pago */
+            display: flex;
+            align-items: left;
+            margin-left: 20px; /* Ajusta el margen según sea necesario */
+        }
+
+        /* Estilos para la etiqueta y el combo box */
+        label {
+            margin-right: 10px; /* Ajusta el margen según sea necesario */
+        }
+
+        /* Add your styles here */
+        .rectangle-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: left;
+        
+        }
+        /* Add your styles here */
+        .rectangle-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: left;
+            margin-bottom: 20px;
+            
+        }
+
+        .pago-container,
+        .num-tarjeta-container,
+        .row-container
+        .direccion-container
+        .total-container 
+        .pagar-container{
+            /* Add your existing styles for .pago-container, .num-tarjeta-container, and new container here */
+            margin-bottom: 10px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        input {
+            width: 200px; /* Adjust the width as needed */
+            padding: 5px;
+        }
+
+        /* Style for the row-container to arrange the three small containers in a row */
+        .row-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Additional style for each small container in the row */
+        .row-container .container {
+            flex: 1;
+        }
+        .direccion-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .direccion-container input {
+            width: 80%; /* Adjust the width as needed for the address input */
+            padding: 10px; /* Increase the padding for a larger input field */
+            margin-top: 10px; /* Add margin to separate the label and input */
+        }
+        /* Style for the total container on the right */
+        .total-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        
+        /* Style for the container that displays accepted payment methods */
+        .aceptamos-container {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Style for the icons of accepted payment methods */
+        .payment-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        /* Style for the container of the "Pagar" button */
+        .pagar-container {
+            text-align: center;
+        }
+
+        /* Style for the "Pagar" button */
+        .pagar-btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #494949;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-items: center;
+        }

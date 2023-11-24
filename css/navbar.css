@@ -1,0 +1,121 @@
+body {
+   
+    background-color: #F1F0E5;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    color: #020202 ;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000000;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #5e72e4;
+  } 
+  
+  .btn {
+    border-radius: 30px;
+    color: black;
+  }
+  
+  .btn-outline-success {
+    color: #060607;
+    border-color: #5e72e4;
+  }
+  
+  .btn-outline-success {
+    color: #060607;
+    border-color: transparent;
+    background-color: transparent; 
+  }
+  .btn-outline-success:hover {
+    background-color: #dcdcdc; 
+    color: white;
+  }
+  .search-button {
+    border-radius: 30px;
+    color: black;
+    border: none; 
+  }
+  
+  .sidebar {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .375rem;
+    margin-top: 1rem;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar .nav-link {
+    color: #000000;
+    transition: all .3s ease;
+  }
+  
+  .sidebar .nav-link:hover {
+    color: #131416;
+  }
+  
+  .profile-area {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .375rem;
+    margin-top: 1rem;
+  }
+  
+  .profile-area h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    border: none;
+    border-radius: .375rem;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-body h4 {
+    font-size: 1.25rem;
+    color: #010101;
+  }
+  
+  .accordion-button {
+    background-color: #fff;
+    color: #000000;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+  
+  .accordion-body {
+    background-color: #f0efe4;
+  }
+  
+  
+  header .btn {
+    margin-left: .5rem;
+  }
+  
+  header .bi {
+    font-size: 1.5rem;
+  }
+  
+  .bi-search, .bi-cart, .bi-person, .bi-telephone {
+    color: #000000;
+  }

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/perfiles.css">
+  <link rel="stylesheet" href="css/comun.css">
+  <title>Perfil de Usuario - Placard</title>
+</head>
+
+<body>
+  
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="Principal.html" class="navbar-brand" style="font-size: 30px; color: black;">PLACARD</a>
+    <form class="d-flex ms-auto" action="Busqueda.html" method="get" role="Buscar">
+      <button class="btn" type="submit">
+          <i class="bi bi-search"></i> 
+      </button>
+        <a href="Carrito.html" class="btn">
+            <i class="bi bi-cart"></i> 
+          </a>
+        <a href="Perfiles.html" class="btn">
+            <i class="bi bi-person"></i> 
+          </a>
+    </form>
+</header>
+  
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ropa de Mujer</a></li>
+                <li><a class="dropdown-item" href="#">Ropa de Hombre</a></li>
+                <li><a class="dropdown-item" href="#">Ropa de Niño</a></li>
+                <li><a class="dropdown-item" href="#">Ropa de Dormir</a></li>
+                <li><a class="dropdown-item" href="#">Ropa Vintage</a></li>
+                <li><a class="dropdown-item" href="#">Ropa Interior</a></li>
+                <li><a class="dropdown-item" href="#">Ropa de Baño</a></li>
+                <li><a class="dropdown-item" href="#">Ropa Formal</a></li>
+                <li><a class="dropdown-item" href="#">Deportiva</a></li>
+                <li><a class="dropdown-item" href="#">Ropa Joyeria</a></li>
+              </ul>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa de Mujer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa de Hombre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa de Niño</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa de Dormir</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa Vintage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa Interior</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa de Baño</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Ropa Formal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Deportiva</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Joyeria</a>
+                </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="container">
+    <div class="row">
+      <aside class="sidebar col-md-4">
+        <h2>Centro personal emprendedores</h2>
+        <!-- Primer acordeón-->
+        <div class="accordion" id="accordionSidebar">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingMiCuenta">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseMiCuenta" aria-expanded="true" aria-controls="collapseMiCuenta">
+                <i class="bi bi-person-badge-fill"></i> Mi Cuenta
+              </button>
+            </h2>
+            <div id="collapseMiCuenta" class="accordion-collapse collapse show" aria-labelledby="headingMiCuenta"
+              data-bs-parent="#accordionSidebar">
+              <div class="accordion-body">
+                <a class="nav-link" id="miPerfil" href="#">Mi perfil</a>
+                <a class="nav-link" id="misGanancias" href="#">Mis Ganancias</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <!-- Segundo acordeón-->
+            <h2 class="accordion-header" id="headingRegistroPedidos">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseRegistroPedidos" aria-expanded="false" aria-controls="collapseRegistroPedidos">
+                <i class="bi bi-card-list"></i> Registro de pedidos
+              </button>
+            </h2>
+            <div id="collapseRegistroPedidos" class="accordion-collapse collapse"
+              aria-labelledby="headingRegistroPedidos" data-bs-parent="#accordionSidebar">
+              <div class="accordion-body">
+                <a class="nav-link" id="todosPedidos" href="#">Todos los pedidos</a>
+                <a class="nav-link" href="#">Pedidos incompletos</a>
+                <a class="nav-link" href="#">Pedidos completos</a>
+                <a class="nav-link" href="#">Ordenes de devolución</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <!-- Tercer acordeón-->
+            <h2 class="accordion-header" id="headingPublicaciones">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsePublicaciones" aria-expanded="false" aria-controls="collapsePublicaciones">
+                <i class="bi bi-file-bar-graph"></i> Publicaciones
+              </button>
+            </h2>
+            <div id="collapsePublicaciones" class="accordion-collapse collapse" aria-labelledby="headingPublicaciones"
+              data-bs-parent="#accordionSidebar">
+              <div class="accordion-body">
+                <a class="nav-link" href="#">Todas las publicaciones</a>
+                <a class="nav-link" href="#">Completadas</a>
+                <a class="nav-link" href="#">En venta</a>
+                <p></p>
+                <a class="nav-link" href="#">Desconectarse</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="profile-area col-md-8">
+        <!--Contenido cargado dinámicamente-->
+      </main>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const profileArea = document.querySelector('.profile-area');
+    
+      const contentMiPerfil = () => {
+        return `
+          <h2 class="mb-4"><i class="bi bi-person-circle"></i> Ekar Cortes</h2>
+          <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="card-body">
+              <h4 class="card-title">
+                <i class="bi bi-pencil-square" id="editarPerfil"></i> Perfil
+              </h4>
+              <div id="formularioEdicion" style="display: none;">
+                <form>
+                  <div class="mb-3">
+                    <label for="nombreUsuario" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombreUsuario" placeholder="Tu nombre aquí">
+                  </div>
+                  <div class="mb-3">
+                    <label for="correoUsuario" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correoUsuario" placeholder="tuemail@example.com">
+                  </div>
+                  <button type="submit" class="btn btn-dark text-white">Guardar Cambios</button>
+                </form>
+              </div>
+              <h4 class="card-title mt-3">
+                <i class="bi bi-credit-card" id="iconoMetodosDePago"></i> Métodos de Pago
+              </h4>
+            </div>
+          </div>
+        `;
+      };
+    
+      const contentMetodosDePago = () => {
+        return `
+          <h2 class="mb-4"><i class="bi bi-credit-card-2-front"></i> Métodos de Pago</h2>
+          <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="card-body">
+              <h4 class="card-title"><i class="bi bi-wallet2"></i> Administra Tus Tarjetas</h4>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <i class="bi bi-credit-card"></i> Visa acabada en 1234
+                    </div>
+                    <span class="badge bg-success rounded-pill">Editar</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <i class="bi bi-credit-card"></i> MasterCard acabada en 5678
+                    </div>
+                    <span class="badge bg-success rounded-pill">Editar</span>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action text-center text-primary">
+                  <i class="bi bi-plus-lg"></i> Agregar Nueva Tarjeta
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      };
+    
+      const contentMisGanancias = () => {
+        return `
+          <h2>Mis Ganancias</h2>
+          <div class="card">
+            <div class="card-body">
+              <!-- Detalles de las ganancias -->
+            </div>
+          </div>
+        `;
+      };
+    
+      function updateProfileContent(id) {
+        switch (id) {
+          case 'miPerfil':
+            profileArea.innerHTML = contentMiPerfil();
+            document.getElementById('editarPerfil').addEventListener('click', () => {
+              document.getElementById('formularioEdicion').style.display = 'block';
+            });
+            document.getElementById('iconoMetodosDePago').addEventListener('click', () => {
+              profileArea.innerHTML = contentMetodosDePago();
+            });
+            break;
+          case 'metodosDePago':
+            profileArea.innerHTML = contentMetodosDePago();
+            break;
+          case 'misGanancias':
+            profileArea.innerHTML = contentMisGanancias();
+            break;
+          // ... otros casos ...
+        }
+      }
+    
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const id = e.target.id;
+          updateProfileContent(id);
+        });
+      });
+    });
+    </script>
+    
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

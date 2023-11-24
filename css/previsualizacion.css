@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px; /* Reducir el espacio entre el borde de la ventana y el contenido */
+}
+
+.ropa-container,
+.detalle-container {
+    flex: 1;
+    padding: 10px; /* Reducir el espacio interno de cada contenedor */
+    border: 1px solid #ddd;
+}
+
+.ropa-container {
+    margin-right: 10px; /* Reducir el espacio entre los contenedores */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px; /* Reducir el espacio entre la imagen y el texto */
+}
+
+h2 {
+    margin-top: 0;
+}

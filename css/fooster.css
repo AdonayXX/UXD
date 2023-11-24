@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .list-unstyled {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .list-unstyled li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  form {
+    text-align: left;
+  }
+
+  .sobre-nosotros {
+    text-align: left;
+  }
+  .sobre-nosotros h5 {
+    font-weight: bold; 
+  }
+
+  .contactanos {
+    text-align: left;
+    margin-left: 2px; 
+  }
+  .contactanos h5 {
+    text-align: left;
+    font-weight: bold; 
+  }

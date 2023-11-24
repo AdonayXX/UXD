@@ -1,0 +1,10 @@
+#formulario-container {
+    min-height: 90vh;
+}
+#formularioCliente-container {
+    min-height: 80vh;
+}
+#formularioEmprendedor-container {
+    min-height: 80vh;
+}
+
